@@ -45,9 +45,9 @@
 *.7z binary
 *.ttf binary
 
-tinymce/*
-*/tinymce/*
-src/admin/*
-admin/*
-*/admin/*
-src/tinymce/*
+tinymce/* linguist-vendored
+*/tinymce/* linguist-vendored
+src/admin/* linguist-vendored
+admin/* linguist-vendored
+*/admin/* linguist-vendored
+src/tinymce/* linguist-vendored

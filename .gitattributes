@@ -46,3 +46,8 @@
 *.ttf binary
 
 tinymce/*
+*/tinymce/*
+src/admin/*
+admin/*
+*/admin/*
+src/tinymce/*

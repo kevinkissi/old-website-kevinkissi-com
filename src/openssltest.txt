@@ -1,0 +1,27 @@
+require 'openssl'
+require 'base64'
+
+secret_key = '1234567890'
+query = 'AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&ItemId=0679722769&Operation=ItemLookup&ResponseGroup=ItemAttributes%2COffers%2CImages%2CReviews&Service=AWSECommerceService&Timestamp=2009-01-01T12%3A00%3A00Z&Version=2009-01-06'
+data = ['GET', 'ecs.amazonaws.com', '/onca/xml', query].join("\n")
+sha256 = OpenSSL::Digest::SHA256.new
+sig = OpenSSL::HMAC.digest(sha256, secret_key, data)
+signature = Base64.encode64(sig)
+
+
+
+
+
+
+
+
+require 'openssl'
+require 'base64'
+
+secret_key = '1234567890'
+query = 'AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&AssociateTag=mytag-20&ItemId=0679722769&Operation=ItemLookup&ResponseGroup=Images%2CItemAttributes%2COffers%2CReviews&Service=AWSECommerceService&Timestamp=2014-08-18T12%3A00%3A00Z&Version=2013-08-01'
+data = ['GET', 'webservices.amazon.com', '/onca/xml', query].join("\n")
+sha256 = OpenSSL::Digest::SHA256.new
+sig = OpenSSL::HMAC.digest(sha256, secret_key, data)
+signature_raw = Base64.strict_encode64(sig)
+signature     = CGI::escape(signature_raw)

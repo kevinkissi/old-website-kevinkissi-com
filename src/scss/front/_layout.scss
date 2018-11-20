@@ -1,0 +1,143 @@
+.navbar {
+margin-bottom: 0;
+border: none;
+}
+
+.navbar .navbar-main, .navbar navbar-nav {
+float: right;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+#large-header {
+background: linear-gradient(
+rgba(26, 21, 23, 0.95),
+rgba(26, 21, 23, 0.95)
+),url(images/header.jpg)  no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/header.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+
+#about{
+background:  linear-gradient(
+rgba(255, 255, 255, 0.95),
+rgba(255, 255, 255, 0.95)
+), url(images/b2.jpg) 50% 0 no-repeat fixed;
+color: white;
+margin: 0 auto;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/b2.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='b2.jpg', sizingMethod='scale')";
+}
+
+#portfolio{
+background:  linear-gradient(
+rgba(30, 30, 30, 0.90),
+rgba(30, 30, 30, 0.90)
+), url(images/portfoliobg.jpg) 50% 0 no-repeat fixed;
+overflow:hidden;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/portfoliobg.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='portfoliobg.jpg', sizingMethod='scale')";
+}
+
+#contact{
+background:  linear-gradient(
+rgba(170, 170, 170, 0.95),
+rgba(170, 170, 170, 0.95)
+), url(images/contactbg.jpg) 50% 0 no-repeat fixed;
+
+margin: 0 auto;
+font-weight: bold;
+color: #222;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/contactbg.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='contactbg.jpg', sizingMethod='scale')";
+}
+
+#flow{
+background: rgba(255, 255, 255, 0.95);
+margin: 0 auto;
+font-weight: bold;
+color: #222;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+#about-header {
+padding-bottom: 0px;
+text-transform: uppercase;
+color: #333 !important;
+}
+
+#about-header h2:after {
+content: '';
+display: block;
+height: 3px;
+width: 40px;
+background: #333;
+margin: 8px 0 20px 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.section-header h2.white-text {
+color: #ffffff;
+}
+
+.section-header h2 {
+padding-bottom: 0px;
+text-transform: uppercase;
+color: #555;
+}
+.section-header h2.white-text {
+color: #ffffff;
+}
+
+.section-header h2:after, .section-header h3:after {
+content: '';
+display: block;
+height: 3px;
+width: 40px;
+background: #555;
+margin: 8px 0 20px 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.section-header h6 {
+color: #303030;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.section-header h6.white-text {
+color: #ffffff;
+}
+
+#ptxt {
+color: #777;
+font-size: 16px;   
+}
+
+#aboutimg{
+width: 100%;
+height: auto; 
+max-height: 337px;
+max-width: 337px;
+}

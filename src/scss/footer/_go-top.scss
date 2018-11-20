@@ -1,0 +1,104 @@
+/* ---------------------------------------- */
+/*  GO TO TOP BUTTON
+/* ---------------------------------------- */
+.gotop-icon {
+display:block;
+// height:50px;
+text-align:center;
+position:relative;
+margin:0 auto; 
+font-weight: bold;  
+font-size:20px;
+color:#000;
+// color: #fff;
+// z-index: -999;
+// line-height: 2.2; 
+line-height: 30px; 
+}
+
+.cd-top {
+     position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    // background:rgb(2, 167, 242);
+    background: rgba(0, 0, 0, 0.7);
+    // background: rgba(2, 167, 242, 0.7);
+    // border: 7px solid rgb(2, 167, 242);
+    // width: 50px;
+    // height: 50px;
+    // display: block;
+    text-decoration: none;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    // display: none;
+    // -webkit-transition: all 0.3s linear;
+    // -moz-transition: all 0.3s ease;
+    // -ms-transition: all 0.3s ease;
+    // -o-transition: all 0.3s ease;
+    // transition: all 0.3s ease;
+    // ==============
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+// //   position: fixed;
+//   bottom: 40px;
+//   right: 10px;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+//   /* image replacement properties */
+  overflow: hidden;
+//   text-indent: 100%;
+//   white-space: nowrap;
+//    content: "\f000";
+//    font-family: FontAwesome;
+//   background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #333;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+// @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 992px) {
+  .cd-top {
+    height: 50px;
+    width: 50px;
+    // right: 30px;
+    right: 20px;
+    bottom: 30px;
+  }
+  
+  .gotop-icon {
+line-height: 40px; 
+}
+
+}
+

@@ -1,0 +1,207 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: rgba(19, 8, 4, 0.9);
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#typed-strings, #typeout{
+font-weight: 100 !important;
+font-style: normal !important;   
+color: #666;    
+}
+
+
+.log{
+background-color: transparent;
+border: none;
+outline: none;
+}
+
+#textd{
+resize: none;
+box-decoration-break: none;
+box-sizing: none;
+background: transparent center center no-repeat;
+text-align: center;
+overflow: auto;
+overflow-y: auto;
+outline: none;
+font-size: .8em;    
+}
+
+@media (max-width: 400px) { 
+#textd{
+height: 200px !important; 
+}
+}
+
+#tags:-webkit-autofill,
+#tags:-webkit-autofill:hover,
+#tags:-webkit-autofill:focus,
+#tags:-webkit-autofill:active {
+transition: background-color 5000s ease-in-out 0s;
+}
+
+#tags:-webkit-autofill::selection{
+background: rgba(30, 144, 255, 0.1);
+}
+
+#tags{
+background-color: rgba(19, 8, 4, 0.6);
+border: none;
+outline: none;
+color: #FFF;
+text-align: center;
+display:inline-block
+}
+
+#tags:focus {
+background-color: transparent;
+box-shadow: none;
+border: 3px solid rgba(19, 8, 4, 0.95);     
+}
+
+#askb{
+box-shadow: none;
+height: auto;
+width: auto;
+color: rgba(31, 31, 31, 0.1);
+border: 2px solid rgba(19, 8, 4, 0.95);     
+background-color: rgba(19, 8, 4, 0.6);    
+}
+
+#askb:hover {
+background-color: rgba(29, 18, 14, 0.2);
+}
+
+#askb:focus{
+background-color: rgba(29, 18, 14, 0.5);
+box-shadow: none;
+border: 2px solid #1d120e;
+outline: none;
+}
+
+#formd{
+display: none;
+}
+
+#herep{
+color: rgba(255, 255, 255, 0.8);
+box-shadow: none;
+background-color: rgba(19, 8, 4, 0.6);
+box-shadow: none;
+padding-left: 13px;
+padding-right: 13px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-left: -5px;
+margin-right: -5px;
+text-align-last: center;
+text-decoration: none;    
+border: 3px solid rgba(19, 8, 4, 0); 
+}
+
+#herep:hover{
+background-color: rgba(39, 28, 24, 0.6);
+box-shadow: none;
+border: 3px solid rgba(19, 8, 4, 0.95) !important;       
+}
+
+#herep:focus{
+background-color: rgba(19, 08, 4, 0.6);
+box-shadow: none;
+padding-left: 11px;
+padding-right: 11px; 
+margin-top: -2px;
+margin-bottom: -2px;
+}
+
+.ui-autocomplete {
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1000;
+float: left;
+display: none;
+min-width: 160px;
+_width: 160px;
+padding: 4px 0;
+margin: 2px 0 0 0;
+list-style: none;
+background-color: transparent;
+border-color: #ccc;
+border-color: rgba(0, 0, 0, 0.2);
+border-style: solid;
+border-width: 1px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+*border-right-width: 2px;
+*border-bottom-width: 2px;
+
+overflow-x: hidden;
+max-height: 100px;
+overflow-y: auto;
+font-weight: bold;
+color: #999999;
+
+.ui-menu-item > a.ui-corner-all {
+display: block;
+padding: 3px 15px;
+clear: both;
+font-weight: normal;
+line-height: 18px;
+color: #555;
+white-space: nowrap;
+
+&.ui-state-hover, &.ui-state-active {
+color: green;
+text-decoration: none;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+background-image: none;
+}
+}
+}
+
+* html .ui-autocomplete {
+height: 100px;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+background: rgba(29, 18, 14, 0.4);
+border: none;
+color:#fff;
+border-radius:0;
+font-weight: bold;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+.ui-autocomplete {
+background-color: rgba(19, 8, 4, 0.7);
+}
+}

@@ -1,0 +1,2 @@
+cd C:\xampp\htdocs\WP\wp-content\themes\kevinkissi-gulp
+gulp

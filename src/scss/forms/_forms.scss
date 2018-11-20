@@ -1,0 +1,205 @@
+/*--------------------------------------------------------------
+Contact Form Style
+--------------------------------------------------------------*/
+.contact-form-wrapper{
+//	width:830px;
+	border:2px dashed #333;
+	margin:30px auto;
+	padding:30px 30px 60px;
+    margin-bottom: 40px !important;
+    
+    	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.contact-form-wrapper h2.contact-title{
+	text-align:center;
+	color:#333;
+	margin-top:0;
+	margin-bottom:40px;
+}
+
+
+.contact-name {
+	width:49% !important;
+	float:left;
+    padding-right: 0.5em;
+}
+
+.contact-email {
+	width:49% !important;
+	float:left;
+    padding-left: 0.5em;
+} 
+
+.contact-message{
+	width:100%;
+}
+
+.contact-name input, .contact-email input{
+	width:100%;
+	// background:none;
+	box-shadow:none;
+	border:none;
+	// padding:10px 0;
+	outline-style:none;
+	// color: #333;
+    //  margin-top: 1.5em;
+    
+    border-bottom:2px solid #333;
+    position:relative;
+   
+	border-radius: 0;
+	// background: #f0f0f0;
+	// color: #aaa;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+    
+    // margin-top: 1em;
+	padding: 0.85em 0;
+	// width: 100%;
+	background: transparent;
+	// color: #595F6E;   
+}
+
+.contact-message textarea{
+	width:100%;
+	// background:none;
+	box-shadow:none;
+	border:none;
+	// padding:10px 0;
+	outline-style:none;
+	// color: #333;
+    
+    border-bottom:2px solid #333;
+    position:relative;
+    
+	border-radius: 0;
+	// background: #f0f0f0;
+	// color: #aaa;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+    
+    // margin-top: 1.5em;
+	padding: 0.85em 0;
+	// width: 100%;
+	background: transparent;
+	// color: #595F6E;
+    
+}
+
+.contact-form-wrapper input[type="submit"]{
+// color: #333;
+// background-color: transparent;
+font-size: 20px;
+display: inline-block;
+border: 2px solid #333;
+-moz-border-radius: 17px;
+-webkit-border-radius: 17px;
+// border-radius: 25px;
+padding: 5px 17px;
+// margin-top:20px;
+margin-top: 2.0em;
+float: right;
+
+//content: "\f1d8"; 
+//font-family: FontAwesome;
+
+color: rgba(255, 255, 255, 0.95);
+box-shadow: none;
+background-color: rgba(50, 50, 50, 0.95);
+box-shadow: none;
+
+text-align-last: center;
+}
+
+.contact-form-wrapper input[type="submit"]:hover{
+background-color: rgba(255, 255, 255, 0.95);
+// box-shadow: none;
+color: rgba(50, 50, 50, 0.95);
+}
+
+.cf7-label {
+	// position: absolute;
+	bottom: 0;
+	left: 0;
+	// padding: 0 0.25em;
+    // padding: 0 1em;
+	width: 100%;
+	height: calc(100% - 1em);
+	text-align: left;
+	pointer-events: none;
+    
+    transform:translateY(42px);
+    
+    padding-top: 2em;
+    
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    /*TRANSISTIONS*/
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	    -ms-transition: all 0.5s ease;
+	        transition: all 0.5s ease;   
+}
+
+.input-field input[type=text], .input-field input[type=email], .input-field textarea{
+float: left;
+//    border-bottom:1px solid transparent;
+
+//    width:98%;
+-webkit-transition: ease-in-out, width 1.35s ease-in-out;
+transition: ease-in-out, width 1s ease-in-out;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field textarea:focus{
+border-bottom: 4px solid #333;
+box-shadow: 0 1px 0 0 #000;
+//  transition: width 2s;
+//  -webkit-transition-timing-function: ease-out;
+width:100%;
+}
+   
+.list-contact-wrapper{
+margin-top:50px;
+}
+.list-contact-wrapper .contact-wrapper{
+text-align:center;
+margin-bottom:30px;
+}
+.list-contact-wrapper .contact-wrapper .icon{
+display:block;
+width:50px;
+height:50px;
+border:2px solid #333;
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+text-align:center;
+position:relative;
+margin:0 auto;
+}
+.list-contact-wrapper .contact-wrapper .icon i{
+font-size:20px;
+color:#333;
+line-height: 2.2;
+}
+.list-contact-wrapper .contact-wrapper p{
+padding:0 5px;
+font-weight:bold;
+font-size: 16px;
+margin-top: 15px;
+color:#333;
+}

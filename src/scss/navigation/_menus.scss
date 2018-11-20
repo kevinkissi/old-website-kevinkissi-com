@@ -1,0 +1,148 @@
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	  top: 6px;
+	  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+}
+
+
+
+// =====================================
+.btn-secondary{
+    background-color: transparent !important;
+//    background: transparent !important;
+//    color: transparent !important;
+    box-shadow: none;
+}
+
+.btn-secondary:hover{
+    background-color: transparent !important;
+//    background: transparent !important;
+//    color: transparent !important;
+    box-shadow: none;
+
+    border: 2px solid #333;
+
+}
+
+.icon i{
+ color:#999;  
+//font-weight: 900;
+    font-size: 16px;
+text-decoration: none;
+    text-shadow: none;
+}
+.icon i:hover{
+ color:#eee;
+}
+
+.box{
+   margin-top: 7.5px;
+//    auto;
+//  width: 35px;
+  height: 35px;
+//    top: 2.5px ;
+    margin-left: -11px;
+}
+
+.container-2{
+//  width: 180px;
+//   vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-2 input#search{
+//  top: 70.5px ;
+//width: 35px;
+    width: 0px;
+  height: 35px;
+//  background: #2b303b;
+     background: transparent;
+  border: none;
+  font-size: 10pt;
+//  float: right;
+   float: left;
+//  color: #262626;
+  padding-left: 10px;
+//  -webkit-border-radius: 5px;
+//  -moz-border-radius: 5px;
+//  border-radius: 5px;
+  color: #fff;
+
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+   color: #444;
+}
+
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #444;
+}
+
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #444;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+   color: #444;
+}
+
+.container-2 .icon{
+//  position: absolute;
+ position: relative;
+//  top: 50%;
+//  right: 5px;
+//  margin-top: 7.5px;
+//     right: 17.5px;
+  z-index: 1;
+  color: #4f5b66;
+   float: left;
+//    width: 20px;
+}
+
+.container-2 input#search:focus, .container-2 input#search:active{
+  outline:none;
+  width: 160px;
+}
+
+.container-2:hover input#search, .container-2#search .icon:focus {
+width: 160px;
+
+    border: 2px solid #333;
+}
+
+//.container-2:hover .icon{
+//  color: #93a2ad;
+//}
+
+
+// ===========================
+.site-sidebar .widget_search .search-field {
+    width: 60%;
+}

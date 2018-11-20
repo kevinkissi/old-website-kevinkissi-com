@@ -1,0 +1,79 @@
+// @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+#search-input{
+   border:none !important;
+   box-shadow: none !important;
+   border-bottom: 2px solid #444 !important;
+    border-radius: 0 !important;
+    	font-size: 30px !important;
+        font-family: "Lato" !important;
+        font-weight: 100 !important;
+         color:#444 !important;
+        //  margin-top:50px;
+}
+#search-input::-webkit-input-placeholder{
+   font-size: 30px !important;
+        font-family: "Lato" !important;
+        font-weight: 100 !important;
+}
+#search-btn{
+   border:none !important;
+   box-shadow: none !important;
+   border: 2px solid #444 !important;
+    // border-radius-top: 0 !important;
+    color:#444 !important;
+    border-top-left-radius: 7px !important;
+    
+}
+#search-btn:hover{
+   background-color: #444 !important;
+   color:#eee !important;
+   font-weight: 100 !important;
+    
+}
+#search-btn i{
+    font-size: 25px !important;
+    //  color:#444 !important;
+}
+
+.search-header{
+    font-size: 19px !important;
+        font-family: "Lato" !important;
+        font-weight: 600 !important;
+         color:#999 !important;
+}
+// =================================
+// Results
+// ===================================
+.search-count{
+    font-size:10.5px;
+     font-weight: 900;
+}
+#resultscount{
+    background-color: #333;
+    color:#fff;
+    padding-left:4px;
+    padding-right:4px;
+    // width:11px;
+}
+
+.entry-title a{
+   color:#333; 
+     font-size: 18px ;
+     font-weight: 600;
+}
+
+.entry-title a:hover{
+   color:#428bca; 
+//    text-decoration: underline;
+ 
+}
+.entry-title a:visited{
+   color:#609; 
+//    text-decoration: underline;
+ 
+}
+
+// .entry-meta,
+//  .entry-meta a{
+//  color: #1a0dab;   
+// }

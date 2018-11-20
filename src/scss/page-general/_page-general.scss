@@ -1,0 +1,30 @@
+.page-header{
+height: 80px;
+display: block;
+width: 140px;
+margin: 0 auto !important;
+text-align: center !important;
+padding-top: 50px !important;
+text-transform: uppercase;
+color:#555;
+border: none !important;
+text-decoration: none;
+}
+
+.page-header h2:after {
+content: '';
+display: block;
+height: 3px;
+width: 40px;
+background: #555;
+margin: 8px 0 20px 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.page-feature{
+background-color: #1c1c1c;
+height: 150px;
+margin: 0 auto;   
+}

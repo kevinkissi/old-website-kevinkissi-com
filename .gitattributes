@@ -46,4 +46,3 @@
 *.ttf binary
 
 tinymce/* linguist-vendored
-src/admin/* linguist-vendored

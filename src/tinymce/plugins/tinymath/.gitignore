@@ -1,0 +1,7 @@
+# Pour ignorer les fichiers générés par netbeans
+nbproject/
+.project
+.settings
+# ignorer les sources de mathjax
+MathJax/
+tinymce/

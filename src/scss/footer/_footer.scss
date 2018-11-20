@@ -1,0 +1,100 @@
+/*--------------------------------------------------------------
+# Main Footer Styles
+--------------------------------------------------------------*/
+.footer-icon{
+display:block;
+height:50px;
+text-align:center;
+//position:relative;
+margin:0 auto; 
+}
+
+.footer-icon i{
+font-size:20px;
+color:#444;
+line-height: 2.2;
+}
+
+.facebook-icon i:hover{
+color: #3B5998;
+font-size:21px;
+margin: -1px;
+}
+.twitter-icon i:hover{
+color: #55acee; 
+font-size:21px;
+margin: -1px;
+}
+.google-plus-icon i:hover{
+color: #DC4E41;
+font-size:21px;
+margin: -1px;
+}
+.linkedin-icon i:hover{
+color: #00a0dc;
+font-size:21px;
+margin: -1px;
+}
+.github-icon i:hover{
+color: #eee;
+font-size:21px;
+margin: -1px;
+}
+.medium-icon i:hover{
+color: #00AB6C;
+font-size:21px;
+margin: -1px;
+}
+
+.researchgate-icon i:hover{
+color: #00ccbb;
+font-size:22px;
+margin: -1px;
+}
+
+.github-icon {
+ border-left: 2px dotted #222; 
+ }
+
+#footer-info{
+font-weight: bold;
+color:#444;
+line-height: 2.2;
+float: right;
+text-align: center;
+}
+
+
+.footer {
+background-color: #1c1c1c;
+padding: 15px 0;
+}
+
+.footer a {
+color: #444;
+}
+
+/* Small devices (tablets, 992px and above) */
+@media screen and (max-width: 992px) { 
+   
+#footer-info{
+float:none;
+// padding-right:50px !important;
+}
+    
+}
+
+/* Small devices (tablets, 768px and below) */
+@media screen and (min-width: 768px) { 
+#footer-span{
+display: none;
+}
+    
+}
+
+#copyright{
+font-size: 11px;
+}
+#footpagelinks{
+font-size: 14px;
+}

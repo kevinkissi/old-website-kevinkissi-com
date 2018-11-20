@@ -1,0 +1,25 @@
+{
+  "name": "kevinkissi",
+  "description": "My wordpress site",
+  "main": "gulpfile.js",
+  "authors": [
+    "Kevin Kissi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "responsive"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "masonry": "desandro/masonry#~3.3.2"
+  }
+}

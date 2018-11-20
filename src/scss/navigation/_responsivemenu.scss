@@ -1,0 +1,137 @@
+
+/* General styles for all menus */
+.cbp-spmenu {
+    background: #1c1c1c !important;
+    position: fixed;
+    border-left: 1px solid #222;
+    // margin-top: 50px;
+}
+
+.cbp-spmenu .navbar-nav{
+	margin-top: 47px;
+	// padding-left: 15px;
+	list-style: none;
+}
+
+
+.cbp-spmenu li{
+    vertical-align: middle;
+    list-style: none;
+    
+}
+.cbp-spmenu a {
+    display: block;
+    color: #fff;
+    // font-size: 1em;
+     font-size: 1.1em;
+    font-weight: 900;
+    border-bottom: 1px solid #222;
+    text-transform: uppercase;
+}
+
+//.cbp-spmenu a:hover {
+    // background: #fff;
+    
+//      font-size: 1.2em;
+//}
+
+.cbp-spmenu a:active {
+    background: #000;
+    // color: #fff;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+.cbp-spmenu-vertical {
+    width: 240px;
+    height: 100%;
+    top: 0 !important;
+    z-index: -1000;
+
+}
+
+.cbp-spmenu-vertical a {
+    padding: 0.5em 1em;
+}
+
+.cbp-spmenu-right {
+    right: -240px;
+}
+
+.cbp-spmenu-right.menu-open {
+    right: 0px;
+}
+
+
+
+/* Push classes applied to the body */
+.push-body {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+.push-body-toright {
+    left: 240px;
+}
+
+.push-body-toleft {
+    left: -240px;
+}
+
+/* Transitions */
+.cbp-spmenu,
+.push-body {
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 992px) {
+    .cbp-spmenu-vertical {
+        font-size: 90%;
+        width: 190px;
+    }
+
+    .cbp-spmenu-left,
+    .push-body-toleft {
+        left: -190px;
+    }
+
+    .cbp-spmenu-right {
+        right: -190px;
+    }
+
+    .push-body-toright {
+        left: 190px;
+    }
+}
+// ===========================
+ .navbar-toggle  {
+    border: 2px solid #444 !important;
+}
+
+ .navbar-toggle:hover{
+   background: #444 !important;
+ }
+//===================================
+ /* Small devices (tablets, 768px and below) */
+@media screen and (max-width: 768px) {
+
+.container-2 input#search:focus, .container-2 input#search:active{
+  outline:none;
+  width: 138px;
+}
+
+.container-2:hover input#search, .container-2#search .icon:focus {
+width: 138px;
+
+    border: 2px solid #333;
+}
+
+.box {
+  margin-left: 3px !important;
+
+}
+
+}

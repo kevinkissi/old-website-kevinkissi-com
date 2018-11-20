@@ -1,0 +1,74 @@
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+	
+	font-size: 40px;
+	
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+#typed{
+	font-size: 40px;
+	white-space:normal!important;	
+	
+}
+
+.typed-container{
+	top:200px;
+	z-index: 2; 
+}
+
+
+.type-tomid{
+position: absolute !important;
+top: 70px !important;
+left: 0;
+width: 100%;
+z-index: 3 !important;
+background-color: transparent;
+padding: 7px 0;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+
+}
+
+// .type-tomid.fixed{
+// position: fixed;
+// }
+
+// .type-tomid {
+// margin: 0;
+// }
+
+// .type-tomid.float-header {
+// background-color: rgba(0,0,0,0.1);
+// }
+
+// .type-tomid:before,
+// .type-tomid:after {
+// content: "";
+// display: table; 
+// }
+
+// .type-tomid:after{
+// clear: both; 
+// }

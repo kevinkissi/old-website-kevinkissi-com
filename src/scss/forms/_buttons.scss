@@ -1,0 +1,90 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+
+	&:hover {
+		border-color: $color__border-button-hover;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+		box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+	}
+}
+
+.blog-button{
+    background-color: #fff !important;
+    font-weight: bold !important;
+    box-shadow: none !important;
+    text-decoration: none;
+    text-shadow: none !important;  
+
+}
+
+.blog-button:hover{
+     border: 2px solid #333 !important;
+    margin: -1px;
+    
+}
+ .btn-icon:hover{
+     color: #000 !important;
+     font-weight: 900 !important;
+ }
+
+#portfolio-more{
+    color: #555 !important;
+}
+
+#blog-button-main{
+    color: #eee !important;
+    background-color: #333 !important;
+    font-weight: bold !important;
+    box-shadow: none !important;
+    text-decoration: none;
+    text-shadow: none !important;  
+    border: 1px solid #666 !important;
+}
+#blog-button-main a{
+    color: #ddd !important;
+}
+#blog-button-main:hover{
+    color: #555 !important;
+    background-color: #fff !important;
+}
+#blog-button-main a:hover{
+    color: #555 !important;
+}
+#portfolio-button-main{
+    color: #eee !important;
+    background-color: #333 !important;
+    font-weight: bold !important;
+    box-shadow: none !important;
+    text-decoration: none;
+    text-shadow: none !important;  
+    border: 1px solid #666 !important;
+
+}
+#portfolio-button-main a{
+    color: #ddd !important;
+}
+
+#portfolio-button-main:hover{
+    color: #555 !important;
+    background-color: #fff !important;    
+}
+#portfolio-button-main a:hover{
+    color: #555 !important;
+}
